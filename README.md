@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mading Kesiswaan — SMP Negeri Harapan Bangsa</title>
+<title>Mading Kesiswaan — SMP Negeri 71 Maluku Tengah</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -241,7 +242,7 @@
   <div class="nav">
     <div class="brand">
       <div class="brand-badge">K</div>
-      <div class="brand-text">Mading Kesiswaan<small>SMP Negeri Harapan Bangsa</small></div>
+      <div class="brand-text">Mading Kesiswaan<small>SMP Negeri 71 Maluku Tengah</small></div>
     </div>
     <nav class="links">
       <a href="#profil">Profil</a>
@@ -374,7 +375,7 @@
     <div class="foot-grid">
       <div>
         <h4>Bidang Kesiswaan</h4>
-        <p>SMP Negeri Harapan Bangsa<br>Jl. Pendidikan No. 45, Kotamu<br>Senin–Jumat, 07.00–15.30 WIB</p>
+        <p>SMP Negeri 71 Maluku Tengah<br>Jl. Legatala - Negeri Lesluru, Kec. Teon Nila Serua<br>Senin–Jumat, 07.00–15.30 WIB</p>
       </div>
       <div>
         <h4>Tautan Cepat</h4>
@@ -389,14 +390,13 @@
       <div>
         <h4>Kontak</h4>
         <ul>
-          <li>kesiswaan@smpharapanbangsa.sch.id</li>
-          <li>(021) 555-0192</li>
-          <li>Ruang Kesiswaan, Lt. 1</li>
+          <li><a href="https://wa.me/6285137421546" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;">💬 Chat WhatsApp Admin (0851-3742-1546)</a></li>
+          <li>Ruang Kesiswaan — Gedung UKS SMPN 71 Malteng</li>
         </ul>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Bidang Kesiswaan — SMP Negeri Harapan Bangsa</span>
+      <span>© 2026 Bidang Kesiswaan — SMP Negeri 71 Maluku Tengah</span>
       <span>Dibuat untuk memudahkan info seputar OSIS, ekskul &amp; kegiatan siswa.</span>
     </div>
   </div>
@@ -532,14 +532,7 @@
 <script>
 /* ============ DATA & STORAGE ============ */
 const DEFAULTS = {
-  pengumuman: [
-    {id:'p1', tanggal:'21 Jul', tag:'Kegiatan', judul:'Masa Pengenalan Lingkungan Sekolah', deskripsi:'MPLS untuk siswa kelas 7 dimulai hari Senin. Wajib memakai seragam lengkap & membawa alat tulis.'},
-    {id:'p2', tanggal:'24 Jul', tag:'Pendaftaran', judul:'Pendaftaran Ekskul Semester Baru', deskripsi:'Pendaftaran dibuka melalui wali kelas masing-masing hingga akhir bulan. Maksimal 2 ekskul per siswa.'},
-    {id:'p3', tanggal:'29 Jul', tag:'Lomba', judul:'Seleksi Lomba Cerdas Cermat Kota', deskripsi:'Perwakilan tiap kelas 8 & 9 mengikuti seleksi internal di Aula Sekolah pukul 09.00 WIB.'},
-    {id:'p4', tanggal:'02 Ags', tag:'Upacara', judul:'Upacara Bendera & Apel Kesiswaan', deskripsi:'Seluruh siswa wajib hadir tepat waktu. Petugas upacara minggu ini dari kelas 9B.'},
-    {id:'p5', tanggal:'05 Ags', tag:'Sosial', judul:'Bakti Sosial Bidang Kesiswaan', deskripsi:'Pengumpulan donasi buku & pakaian layak pakai untuk panti asuhan mitra sekolah.'},
-    {id:'p6', tanggal:'09 Ags', tag:'Prestasi', judul:'Penghargaan Siswa Berprestasi', deskripsi:'Pemberian penghargaan bulanan untuk siswa dengan poin prestasi tertinggi di setiap angkatan.'}
-  ],
+  pengumuman: [],
   ekskul: [
     {id:'e1', nama:'Bulu Tangkis', jadwal:'Selasa & Jumat', emoji:'🏸', warna:'coral'},
     {id:'e2', nama:'Seni Rupa', jadwal:'Rabu', emoji:'🎨', warna:'teal'},
@@ -561,25 +554,19 @@ const DEFAULTS = {
     {id:'g8', judul:'Turnamen Antar Kelas', emoji:'🏸', gradient:'gold'}
   ],
   osis: {
-    pembina:'Bpk. Rudi Hartono, S.Pd.',
-    ketua:'Aisyah Putri Ramadhani', ketuaKelas:'9A',
-    wakil:'Bima Satrio', wakilKelas:'9C',
-    sekretaris:'Nadia Salsabila', sekretarisKelas:'8B',
-    bendahara:'Farrel Adyatma', bendaharaKelas:'8D',
+    pembina:'',
+    ketua:'', ketuaKelas:'',
+    wakil:'', wakilKelas:'',
+    sekretaris:'', sekretarisKelas:'',
+    bendahara:'', bendaharaKelas:'',
     seksi:[
-      {nama:'Sie. Keagamaan', jumlah:3},
-      {nama:'Sie. Olahraga', jumlah:4},
-      {nama:'Sie. Seni & Budaya', jumlah:3},
-      {nama:'Sie. Kebersihan', jumlah:4}
+      {nama:'', jumlah:0},
+      {nama:'', jumlah:0},
+      {nama:'', jumlah:0},
+      {nama:'', jumlah:0}
     ]
   },
-  siswa: [
-    {id:'s1', nisn:'0081234561', nama:'Aisyah Putri Ramadhani', kelas:'9A', password:'siswa123', prestasi:85, pelanggaran:5},
-    {id:'s2', nisn:'0081234562', nama:'Bima Satrio', kelas:'9C', password:'siswa123', prestasi:70, pelanggaran:15},
-    {id:'s3', nisn:'0091234563', nama:'Nadia Salsabila', kelas:'8B', password:'siswa123', prestasi:92, pelanggaran:0},
-    {id:'s4', nisn:'0091234564', nama:'Farrel Adyatma', kelas:'8D', password:'siswa123', prestasi:40, pelanggaran:20},
-    {id:'s5', nisn:'0101234565', nama:'Keisha Ramadhani', kelas:'7A', password:'siswa123', prestasi:60, pelanggaran:5}
-  ],
+  siswa: [],
   admin: {username:'admin', password:'admin123'}
 };
 
@@ -720,13 +707,16 @@ function renderGaleri(){
 }
 function renderOsisPublic(){
   const o=state.osis;
-  document.getElementById('osisPembinaName').textContent = o.pembina || '-';
-  document.getElementById('osisKetuaName').textContent = (o.ketua||'-') + (o.ketuaKelas? ' — '+o.ketuaKelas : '');
-  document.getElementById('osisWakilName').textContent = (o.wakil||'-') + (o.wakilKelas? ' — '+o.wakilKelas : '');
-  document.getElementById('osisSekretarisName').textContent = (o.sekretaris||'-') + (o.sekretarisKelas? ' — '+o.sekretarisKelas : '');
-  document.getElementById('osisBendaharaName').textContent = (o.bendahara||'-') + (o.bendaharaKelas? ' — '+o.bendaharaKelas : '');
+  document.getElementById('osisPembinaName').textContent = o.pembina || 'Belum diisi admin';
+  document.getElementById('osisKetuaName').textContent = o.ketua ? (o.ketua + (o.ketuaKelas? ' — '+o.ketuaKelas : '')) : 'Belum diisi admin';
+  document.getElementById('osisWakilName').textContent = o.wakil ? (o.wakil + (o.wakilKelas? ' — '+o.wakilKelas : '')) : 'Belum diisi admin';
+  document.getElementById('osisSekretarisName').textContent = o.sekretaris ? (o.sekretaris + (o.sekretarisKelas? ' — '+o.sekretarisKelas : '')) : 'Belum diisi admin';
+  document.getElementById('osisBendaharaName').textContent = o.bendahara ? (o.bendahara + (o.bendaharaKelas? ' — '+o.bendaharaKelas : '')) : 'Belum diisi admin';
   const seksiWrap=document.getElementById('osisSeksiRow');
-  seksiWrap.innerHTML = (o.seksi||[]).map(s=>`<div class="org-card"><div class="role">${esc(s.nama)}</div><div class="name">${esc(s.jumlah)} anggota</div></div>`).join('');
+  const seksiIsi = (o.seksi||[]).filter(s=>s.nama && s.nama.trim()!=='');
+  seksiWrap.innerHTML = seksiIsi.length
+    ? seksiIsi.map(s=>`<div class="org-card"><div class="role">${esc(s.nama)}</div><div class="name">${esc(s.jumlah)} anggota</div></div>`).join('')
+    : '<p style="color:#B9C3CC; font-size:13px;">Data seksi bidang belum diisi admin.</p>';
 }
 function renderStatPins(){
   document.getElementById('statEkskul').textContent = state.ekskul.length;
